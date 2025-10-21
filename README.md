@@ -1,5 +1,3 @@
-🏟️ **SPORTMATCH**
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/EstevaoLocks/ReservaDeQuadras/main/Documentacao/img/sportmatch_logo.png" alt="Logo do SportMatch" width="300"/>
 </p>
