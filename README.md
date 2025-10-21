@@ -1,7 +1,7 @@
 🏟️ **SPORTMATCH**
 
 <p align="center">
-  <img src="Documentacao/img/sportmatch_logo.jpg" alt="Logo do SportMatch" width="300"/>
+  <img src="https://raw.githubusercontent.com/EstevaoLocks/ReservaDeQuadras/main/Documentacao/img/sportmatch_logo.png" alt="Logo do SportMatch" width="300"/>
 </p>
 
 ---
@@ -16,4 +16,5 @@ O **SportMatch** nasceu com a missão de revolucionar o acesso ao esporte, elimi
 
 🔗 **Apresentação de Modelagens**
 
-👉 [**Ver Apresentação (Canva)**](https://www.canva.com/design/DAG2arSbYvU/pDHhaSKUO-DQXrfnLubi_Q/edit?utm_content=DAG2arSbYvU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+ [**Ver Apresentação (Canva)**](https://www.canva.com/design/DAG2arSbYvU/pDHhaSKUO-DQXrfnLubi_Q/edit?utm_content=DAG2arSbYvU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
