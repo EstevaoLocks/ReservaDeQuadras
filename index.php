@@ -99,7 +99,17 @@
                     </div>
                 </div>
             </div>
-        </section>
+
+            <!-- Button -->
+            <div class="containerBtn">
+                <a class="btn-primary1" href="#">Veja mais</a>
+            </div>
+        </section><!-- Fim Section 1 - Propaganda -->
+
+        <!-- Section 2 - Nossas Categorias -->
+         <section>
+            
+         </section>
     </main>
 </body>
 </html>

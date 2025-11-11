@@ -271,6 +271,7 @@ header.home .figura img {
     height: 800px;
     position: relative;
     overflow-x: hidden;
+    overflow-y: hidden;
 
     display: flex;
     justify-content: center;
@@ -334,8 +335,7 @@ header.home .figura img {
     }
 }
 
-/* Cols */
-.containerCards {
+.sectionPropaganda .containerCards {
     width: 318px;
     height: 100%;
     position: absolute;
@@ -350,14 +350,14 @@ header.home .figura img {
     margin-right: 32px;
 }
 
-.cardPropaganda {
+.sectionPropaganda .cardPropaganda {
     width: 270px;
     height: 233px;
     margin: 50px 0;
     position: relative;
 }
 
-.cardPropaganda img {
+.sectionPropaganda .cardPropaganda img {
     width: 100%;
     height: auto;
     margin: 0;
@@ -366,7 +366,7 @@ header.home .figura img {
     mix-blend-mode: luminosity;
 }
 
-.bodyCard {
+.sectionPropaganda .bodyCard {
     width: 100%;
     height: 132px;
 
@@ -382,7 +382,7 @@ header.home .figura img {
     background: linear-gradient(to top, #ffffff, #ffffff, #ffffff00);
 }
 
-.descricao {
+.sectionPropaganda .descricao {
     padding: 0 16px;
     margin: 8px 0;
 
@@ -390,7 +390,7 @@ header.home .figura img {
     color: #6b6b6b;
 }
 
-.title {
+.sectionPropaganda .title {
     padding: 0 16px;
     margin: 8px 0;
 
@@ -398,6 +398,18 @@ header.home .figura img {
     font-size: 18px;
 }
 
+.sectionPropaganda .containerBtn {
+    position: absolute;
+    bottom: 0;
+}
+
+.sectionPropaganda .btn-primary1 {
+    padding: 16px 80px;
+    border-radius: 10px;
+    
+    font-size: 24px;
+    text-transform: uppercase;
+}
 
 /*   CSS Celular e Tablet   */
 @media (max-width: 768px) {
