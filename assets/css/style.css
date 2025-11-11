@@ -401,6 +401,7 @@ header.home .figura img {
 .sectionPropaganda .containerBtn {
     position: absolute;
     bottom: 0;
+    margin: 32px;
 }
 
 .sectionPropaganda .btn-primary1 {
@@ -409,6 +410,43 @@ header.home .figura img {
     
     font-size: 24px;
     text-transform: uppercase;
+}
+
+.sectionNossasCategorias {
+    height: 1178px;
+    padding: 48px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionNossasCategorias .container {
+    width: 100%;
+
+    display: flex;
+
+    background-color: chartreuse;
+}
+
+.sectionNossasCategorias .row {
+    width: 100%;
+    margin: 16px 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-color: #f6ae2d;
+}
+
+.sectionNossasCategorias .card {
+    width: 30%;
+    margin: 16px;
+
+    background-color: #0f2f51;
+    border-radius: 8px;
 }
 
 /*   CSS Celular e Tablet   */

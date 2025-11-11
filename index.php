@@ -107,9 +107,17 @@
         </section><!-- Fim Section 1 - Propaganda -->
 
         <!-- Section 2 - Nossas Categorias -->
-         <section>
-            
-         </section>
+        <section class="sectionNossasCategorias">
+            <h1>Nossas Categorias</h1>
+            <p>Para todos os gostos existe um esporte e a quadra para ele você pode reservar aqui!</p>
+            <div class="container">
+                <div class="row">
+                    <div class="card">
+                        <p>qualquer connection_status</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>
