@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Fontes Google Fonts -->
+    <!-- Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -43,29 +49,57 @@
     </nav><!-- Fim Menu -->
 
     <!-- Conteúdo Principal ----------- -->
-
-    <!-- Cabeçalho Home -->
-    <header class="home">
-        <!-- Gradiente -->
-        <div class="gradiente">
-            <!-- Conteúdo Header -->
-            <div class="conteudo-header">
-                <!-- Textos -->
-                <h1>Quem <code>espera</code> a bola vir no pé, <code>perde</code> o <code>chute</code></h1>
-                <p>Reserve ou cadastre sua quadra já!</p>
-
-                <!-- Botões -->
-                <div class="btns-header">
-                    <a class="btn-primary2" href="#">Cadastre-se</a>
-                    <a class="btn-primary1" href="#">Login</a>
+    <main>
+        <!-- Cabeçalho Home -->
+        <header class="home">
+            <!-- Gradiente -->
+            <div class="gradiente">
+                <!-- Conteúdo Header -->
+                <div class="conteudo-header">
+                    <!-- Textos -->
+                    <h1>Quem <code>espera</code> a bola vir no pé, <code>perde</code> o <code>chute</code></h1>
+                    <p>Reserve ou cadastre sua quadra já!</p>
+    
+                    <!-- Botões -->
+                    <div class="btns-header">
+                        <a class="btn-primary2" href="#">Cadastre-se</a>
+                        <a class="btn-primary1" href="#">Login</a>
+                    </div>
+                </div>
+    
+                <!-- Figura -->
+                <div class="figura">
+                    <img src="assets/img/figuraMouse.png" alt="Icone de mouse">
                 </div>
             </div>
+        </header>
 
-            <!-- Figura -->
-            <div class="figura">
-                <img src="assets/img/figuraMouse.png" alt="Icone de mouse">
+        <!-- Section 1 - Propaganda -->
+        <section class="sectionPropaganda">
+            <!-- Conteúdo Absoluto -->
+            <img class="imgBolaBasquete" src="assets/img/basket ball img.png" alt="Imagem de bola de basquete">
+            <img class="imgJogadorBasquete" src="assets/img/basketball-player-action-sunset 1.png" alt="Imagem de jogador de basquete">
+            <p class="textAbsolute">Cadastre e alugue sua quadra aqui</p>
+
+            <!-- Cards -->
+            <div class="containerCards">
+                <div class="cardPropaganda">
+                    <img src="assets/img/quadra de quintal 1.png" alt="">
+                    <div class="bodyCard">
+                        <p class="descricao">A quadra da sua casa aqui!</p>
+                        <p class="title">Quadra de Quintal</p>
+                    </div>
+                </div>
+                
+                <div class="cardPropaganda">
+                    <img src="assets/img/Quadra-de-Futsal-profissional 1.png" alt="">
+                    <div class="bodyCard">
+                        <p class="descricao">Sua quadra profissional aqui!</p>
+                        <p class="title">Quadra Profissional</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </header>
+        </section>
+    </main>
 </body>
 </html>

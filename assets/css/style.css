@@ -15,9 +15,17 @@ body {
     font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+main {
+    position: relative;
+    padding-top: 72px;
+}
+
 .menu {
     height: 72px;
+    width: 100%;
     background-color: #0D1926;
+    position: fixed;
+    z-index: 10;
 
     display: flex;
     justify-content: space-between;
@@ -258,6 +266,139 @@ header.home .figura img {
     height: auto;
 }
 
+.sectionPropaganda {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    overflow-x: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(to bottom, #75DDDD, #ffffff);
+}
+
+.imgBolaBasquete {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    z-index: 1;
+
+    width: 850px;
+    height: auto;
+
+    mix-blend-mode: luminosity;
+}
+
+.imgJogadorBasquete {
+    position: absolute;
+    z-index: 2;
+
+    width: 820px;
+    height: auto;
+}
+
+.textAbsolute {
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    z-index: 1;
+
+    width: 40%;
+
+    font-size: 104px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+
+    background: linear-gradient(to bottom, #0f2f51, #B8C2CE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+@media (max-width: 1340px) {
+    .textAbsolute {
+        width: 60%;
+    }
+}
+
+@media (max-width: 910px) {
+    .textAbsolute {
+        left: 150px;
+        top: 150px;
+
+        width: 70%;
+    }
+}
+
+/* Cols */
+.containerCards {
+    width: 318px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    z-index: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-right: 32px;
+}
+
+.cardPropaganda {
+    width: 270px;
+    height: 233px;
+    margin: 50px 0;
+    position: relative;
+}
+
+.cardPropaganda img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+
+    border-radius: 8px 8px 0 0;
+    mix-blend-mode: luminosity;
+}
+
+.bodyCard {
+    width: 100%;
+    height: 132px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+
+    border-radius: 0 0 8px 8px;
+    background: linear-gradient(to top, #ffffff, #ffffff, #ffffff00);
+}
+
+.descricao {
+    padding: 0 16px;
+    margin: 8px 0;
+
+    font-size: 14px;
+    color: #6b6b6b;
+}
+
+.title {
+    padding: 0 16px;
+    margin: 8px 0;
+
+    color: #000000;
+    font-size: 18px;
+}
+
+
 /*   CSS Celular e Tablet   */
 @media (max-width: 768px) {
     .menu ul {
@@ -267,5 +408,22 @@ header.home .figura img {
 
     .menu ul li {
         margin: 10px 0;
+    }
+
+    .textAbsolute {
+        left: auto;
+        top: 100px;
+
+        width: 60%;
+        font-size: 64px;
+    }
+
+    .containerCards {
+        width: 80%;
+        height: 100%;
+        position: absolute;
+        right: auto;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
