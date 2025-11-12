@@ -431,7 +431,6 @@ header.home .figura img {
 }
 
 .sectionNossasCategorias {
-    height: 1178px;
     padding: 48px 0;
 
     display: flex;
@@ -451,6 +450,7 @@ header.home .figura img {
 .sectionNossasCategorias .row {
     width: 100%;
     margin: 16px 0;
+    padding: 16px 0;
 
     display: flex;
     justify-content: space-around;
@@ -460,7 +460,6 @@ header.home .figura img {
 
 .sectionNossasCategorias .card {
     width: 30%;
-    margin: 16px;
 
     background-color: #ffffff;
     border-radius: 12px 12px 12px 12px;
