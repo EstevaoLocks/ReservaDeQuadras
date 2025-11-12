@@ -108,9 +108,11 @@
 
         <!-- Section 2 - Nossas Categorias -->
         <section class="sectionNossasCategorias">
-            <h1>Nossas Categorias</h1>
-            <p>Para todos os gostos existe um esporte e a quadra para ele você pode reservar aqui!</p>
+            <h2 class="titleContratante">Nossas Categorias</h2>
+            <p class="subTitleContratante">Para todos os gostos existe um esporte e a quadra para ele você pode reservar aqui!</p>
             <div class="container">
+
+                <!-- Linha 1 -->
                 <div class="row">
                     <!-- Card 1 -->
                     <div class="card">
@@ -134,7 +136,7 @@
 
                     <!-- Card 2 -->
                     <div class="card">
-                        <img src="assets/img/quadraBaquete 1.png" alt="Imagem de quadra de basquete">
+                        <img src="assets/img/estadioFutebol.png" alt="Imagem de estádio de futebol">
                         <div class="bodyCard">
                             <p class="title">Futebol</p>
                             <p>47 opções</p>
@@ -154,7 +156,7 @@
 
                     <!-- Card 3 -->
                     <div class="card">
-                        <img src="assets/img/quadraBaquete 1.png" alt="Imagem de quadra de basquete">
+                        <img src="assets/img/quadra-de-volei4 1.png" alt="Imagem de quadra de vôlei">
                         <div class="bodyCard">
                             <p class="title">Vôlei</p>
                             <p>112 opções</p>
@@ -166,6 +168,69 @@
                                 <img src="assets/img/Estrela.png" alt="Imagem de estrela">
                             </div>
                             <p>18m x 9m</p>
+                            <div class="containerBtnCard">
+                                <a class="btnCard" href="">Veja Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Linha 2 -->
+                <div class="row">
+                    <!-- Card 4 -->
+                    <div class="card">
+                        <img src="assets/img/quadraTenis.png" alt="Imagem de quadra de tênis">
+                        <div class="bodyCard">
+                            <p class="title">Tênis</p>
+                            <p>65 opções</p>
+                            <div class="containerStars">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                            </div>
+                            <p>18m x 9m</p>
+                            <div class="containerBtnCard">
+                                <a class="btnCard" href="">Veja Mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="card">
+                        <img src="assets/img/quadraBadminton.png" alt="Imagem de estádio de badminton">
+                        <div class="bodyCard">
+                            <p class="title">Badminton</p>
+                            <p>23 opções</p>
+                            <div class="containerStars">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                            </div>
+                            <p>4m x 8m</p>
+                            <div class="containerBtnCard">
+                                <a class="btnCard" href="">Veja Mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="card">
+                        <img src="assets/img/campo-baseball.png" alt="Imagem de quadra de basebol">
+                        <div class="bodyCard">
+                            <p class="title">Outras Categorias</p>
+                            <p>Mais de 500 opções</p>
+                            <div class="containerStars">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                            </div>
+                            <p>20m x 20m</p>
                             <div class="containerBtnCard">
                                 <a class="btnCard" href="">Veja Mais</a>
                             </div>

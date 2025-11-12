@@ -20,6 +20,14 @@ main {
     padding-top: 72px;
 }
 
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+
+    margin-bottom: 32px;
+}
+
 .menu {
     height: 72px;
     width: 100%;
@@ -412,6 +420,16 @@ header.home .figura img {
     text-transform: uppercase;
 }
 
+.titleContratante {
+    /* color: #F4743B; */
+    border-bottom: 2px solid #F4743B;
+}
+
+.subTitleContratante {
+    color: #4A5565;
+    margin-bottom: 32px;
+}
+
 .sectionNossasCategorias {
     height: 1178px;
     padding: 48px 0;
@@ -419,14 +437,15 @@ header.home .figura img {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    background-color: #F9FAFB;
 }
 
 .sectionNossasCategorias .container {
     width: 100%;
 
     display: flex;
-
-    background-color: chartreuse;
+    flex-direction: column;
 }
 
 .sectionNossasCategorias .row {
@@ -437,8 +456,6 @@ header.home .figura img {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-
-    background-color: #f6ae2d;
 }
 
 .sectionNossasCategorias .card {
@@ -446,7 +463,8 @@ header.home .figura img {
     margin: 16px;
 
     background-color: #ffffff;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 12px 12px 12px 12px;
+    border: 2px solid #e7e7e7;
 }
 
 .sectionNossasCategorias .card img {
