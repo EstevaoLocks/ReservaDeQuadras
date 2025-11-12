@@ -538,6 +538,37 @@ header.home .figura img {
     transition: background-color 0.3s ease;
 }
 
+.porqueContratar {
+    padding: 32px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: linear-gradient(to bottom, #F4743B, #000000);
+}
+
+.title-porqueEscolher {
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.subtitle-porqueEscolher {
+    color: #99A1AF;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+.porqueCadastrar {
+    padding: 32px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: linear-gradient(to bottom, #000000, #45dddd);
+}
+
 /*   CSS Celular e Tablet   */
 @media (max-width: 768px) {
     .menu ul {

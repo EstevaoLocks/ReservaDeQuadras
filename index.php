@@ -238,6 +238,28 @@
                     </div>
                 </div>
             </div>
+        </section><!-- Fim Section 2 - Nossas Categorias -->
+
+        <!-- Section 3 - Porque escolher-nos -->
+        <section class="sectionPorqueEscolher">
+            <div class="porqueContratar">
+                <h2 class="title-porqueEscolher">Por que reservar através do SportMatch?</h2>
+                <p class="subtitle-porqueEscolher">Veja o quão mais fácil seu lazer e cuidados físicos se tornam:</p>
+                <div class="row-porqueEscolher">
+                    <div class="card-porqueEscolher">
+
+                    </div>
+                </div>
+            </div>
+            <div class="porqueCadastrar">
+                <h2 class="title-porqueEscolher">Por que cadastrar sua quadra no SportMatch?</h2>
+                <p class="subtitle-porqueEscolher">Dê vida à quadra do seu quintal ou mais visibilidade à sua quadra profissional</p>
+                <div class="row-porqueEscolher">
+                    <div class="card-porqueEscolher">
+                        
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 </body>
