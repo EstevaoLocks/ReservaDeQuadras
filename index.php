@@ -112,8 +112,64 @@
             <p>Para todos os gostos existe um esporte e a quadra para ele você pode reservar aqui!</p>
             <div class="container">
                 <div class="row">
+                    <!-- Card 1 -->
                     <div class="card">
-                        <p>qualquer connection_status</p>
+                        <img src="assets/img/quadraBaquete 1.png" alt="Imagem de quadra de basquete">
+                        <div class="bodyCard">
+                            <p class="title">Basquete</p>
+                            <p>241 opções</p>
+                            <div class="containerStars">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                            </div>
+                            <p>10m x 20m</p>
+                            <div class="containerBtnCard">
+                                <a class="btnCard" href="">Veja Mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="card">
+                        <img src="assets/img/quadraBaquete 1.png" alt="Imagem de quadra de basquete">
+                        <div class="bodyCard">
+                            <p class="title">Futebol</p>
+                            <p>47 opções</p>
+                            <div class="containerStars">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                            </div>
+                            <p>40m x 60m</p>
+                            <div class="containerBtnCard">
+                                <a class="btnCard" href="">Veja Mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="card">
+                        <img src="assets/img/quadraBaquete 1.png" alt="Imagem de quadra de basquete">
+                        <div class="bodyCard">
+                            <p class="title">Vôlei</p>
+                            <p>112 opções</p>
+                            <div class="containerStars">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                                <img src="assets/img/Estrela.png" alt="Imagem de estrela">
+                            </div>
+                            <p>18m x 9m</p>
+                            <div class="containerBtnCard">
+                                <a class="btnCard" href="">Veja Mais</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
