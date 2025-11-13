@@ -1,0 +1,599 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    position: relative;
+    padding-top: 72px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+
+    margin-bottom: 32px;
+}
+
+.menu {
+    height: 72px;
+    width: 100%;
+    background-color: #0D1926;
+    position: fixed;
+    z-index: 10;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #ffffff;
+}
+
+.menu .links {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.menu .links ul {
+    height: 100%;
+}
+
+.menu .links ul li {
+    margin: 0 10px;
+    padding: 0 15px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    
+    transition: background-color 0.3s ease;
+}
+
+.menu .links ul li:hover {
+    height: calc(100% - 3px);
+
+    background-color: #15293F;
+    border-bottom: 3px solid #15293F;
+
+    cursor: pointer;
+}
+
+.menu .links ul li.ativo {
+    height: calc(100% - 3px);
+
+    background-color: #15293F;
+    border-bottom: 3px solid #F4743B;
+}
+
+.logo {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    margin-left: 32px;
+    height: 100%;
+    width: auto;
+
+    display: flex;
+    align-items: center;
+}
+
+.logo-img img {
+    height: 70%;
+    width: auto;
+}
+
+.nome-site {
+    margin-left: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+}
+
+.nome-site .azul {
+    color: #45dddd;
+}
+
+.btn-primary1.union {
+    border-radius: 5px 0 0 5px;
+    margin-right: 0;
+}
+
+.btn-secondary1.union {
+    border-radius: 0 5px 5px 0;
+    margin-left: 0;
+}
+
+.btn-primary1 {
+    background-color: #0f2f51;
+    color: #ffffff;
+    font-size: 16px;
+
+    margin: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary1 {
+    background-color: #45dddd;
+    color: #ffffff;
+    font-size: 16px;
+    
+    margin: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary2 {
+    background-color: #F4743B;
+    color: #ffffff;
+    font-size: 16px;
+
+    margin: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary2 {
+    background-color: #f6ae2d;
+    color: #ffffff;
+    font-size: 16px;
+    
+    margin: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary1:hover {
+    background-color: #0a213a;
+}
+
+.btn-secondary1:hover {
+    background-color: #36acac;
+}
+
+.btn-primary2:hover {
+    background-color: #ca5d2d;
+}
+
+.btn-secondary2:hover {
+    background-color: #cf901a;
+}
+
+header.home {
+    height: 904px;
+    background-image: url('../img/quadra-fut.png');
+    background-size: cover;
+    background-position: center;
+
+    color: #ffffff;
+}
+
+header.home div.gradiente {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    background: linear-gradient(to bottom, #000000b4, #00000080, #000000b4);
+}
+
+header.home .conteudo-header {
+    height: 80%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header.home h1 {
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+
+    margin-bottom: 16px;
+}
+
+header.home p {
+    font-size: 24px;
+    text-align: center;
+
+    margin-bottom: 64px;
+}
+
+header.home code {
+    color: #F4743B;
+}
+
+header.home .btns-header {
+    font-size: 18px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns-header .btn-primary1, .btns-header .btn-primary2 {
+    padding: 15px 30px;
+
+    font-size: 18px;
+}
+
+header.home .figura {
+    align-self: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 20%;
+}
+
+header.home .figura img {
+    width: 10%;
+    max-width: 24px;
+    height: auto;
+}
+
+.sectionPropaganda {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(to bottom, #75DDDD, #ffffff);
+}
+
+.imgBolaBasquete {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    z-index: 1;
+
+    width: 850px;
+    height: auto;
+
+    mix-blend-mode: luminosity;
+}
+
+.imgJogadorBasquete {
+    position: absolute;
+    z-index: 2;
+
+    width: 820px;
+    height: auto;
+}
+
+.textAbsolute {
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    z-index: 1;
+
+    width: 40%;
+
+    font-size: 104px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+
+    background: linear-gradient(to bottom, #0f2f51, #B8C2CE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+@media (max-width: 1340px) {
+    .textAbsolute {
+        width: 60%;
+    }
+}
+
+@media (max-width: 910px) {
+    .textAbsolute {
+        left: 150px;
+        top: 150px;
+
+        width: 70%;
+    }
+}
+
+.sectionPropaganda .containerCards {
+    width: 318px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    z-index: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-right: 32px;
+}
+
+.sectionPropaganda .cardPropaganda {
+    width: 270px;
+    height: 233px;
+    margin: 50px 0;
+    position: relative;
+}
+
+.sectionPropaganda .cardPropaganda img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+
+    border-radius: 8px 8px 0 0;
+    mix-blend-mode: luminosity;
+}
+
+.sectionPropaganda .bodyCard {
+    width: 100%;
+    height: 132px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+
+    border-radius: 0 0 8px 8px;
+    background: linear-gradient(to top, #ffffff, #ffffff, #ffffff00);
+}
+
+.sectionPropaganda .descricao {
+    padding: 0 16px;
+    margin: 8px 0;
+
+    font-size: 14px;
+    color: #6b6b6b;
+}
+
+.sectionPropaganda .title {
+    padding: 0 16px;
+    margin: 8px 0;
+
+    color: #000000;
+    font-size: 18px;
+}
+
+.sectionPropaganda .containerBtn {
+    position: absolute;
+    bottom: 0;
+    margin: 32px;
+}
+
+.sectionPropaganda .btn-primary1 {
+    padding: 16px 80px;
+    border-radius: 10px;
+    
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.titleContratante {
+    /* color: #F4743B; */
+    border-bottom: 2px solid #F4743B;
+}
+
+.subTitleContratante {
+    color: #4A5565;
+    margin-bottom: 32px;
+}
+
+.sectionNossasCategorias {
+    height: 1178px;
+    padding: 48px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #F9FAFB;
+}
+
+.sectionNossasCategorias .container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionNossasCategorias .row {
+    width: 100%;
+    margin: 16px 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sectionNossasCategorias .card {
+    width: 30%;
+    margin: 16px;
+
+    background-color: #ffffff;
+    border-radius: 12px 12px 12px 12px;
+    border: 2px solid #e7e7e7;
+}
+
+.sectionNossasCategorias .card img {
+    width: 100%;
+    height: 256px;
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 10px 10px 0 0;
+}
+
+.sectionNossasCategorias .card .bodyCard {
+    width: calc(100% - 48px);
+    padding: 24px;
+
+    border-radius: 0 0 10px 10px;
+}
+
+.sectionNossasCategorias .card .bodyCard p {
+    width: 100%;
+    margin-top: 16px;
+
+    color: #4A5565;
+}
+
+.sectionNossasCategorias .card .bodyCard .title {
+    color: #000000;
+}
+
+.sectionNossasCategorias .card .bodyCard div {
+    width: 100%;
+    margin-top: 16px;
+}
+
+.sectionNossasCategorias .card .bodyCard .containerStars {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    
+    margin-top: 16px;
+}
+
+.sectionNossasCategorias .card .bodyCard .containerStars img {
+    width: 16px;
+    height: auto;
+
+    margin-right: 6px;
+}
+
+.sectionNossasCategorias .card .bodyCard .containerBtnCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 16px;
+}
+
+.sectionNossasCategorias .card .bodyCard .btnCard {
+    width: calc(100% - 32px);
+    padding: 16px;
+
+    border-radius: 8px;
+    background-color: #F4743B;
+    color: #ffffff;
+}
+
+.sectionNossasCategorias .card .bodyCard .btnCard:hover {
+    background-color: #c45322;
+    transition: background-color 0.3s ease;
+}
+
+.porqueContratar {
+    padding: 32px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: linear-gradient(to bottom, #F4743B, #000000);
+}
+
+.title-porqueEscolher {
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.subtitle-porqueEscolher {
+    color: #99A1AF;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+.porqueCadastrar {
+    padding: 32px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: linear-gradient(to bottom, #000000, #45dddd);
+}
+
+/*   CSS Celular e Tablet   */
+@media (max-width: 768px) {
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu ul li {
+        margin: 10px 0;
+    }
+
+    .textAbsolute {
+        left: auto;
+        top: 100px;
+
+        width: 60%;
+        font-size: 64px;
+    }
+
+    .containerCards {
+        width: 80%;
+        height: 100%;
+        position: absolute;
+        right: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
