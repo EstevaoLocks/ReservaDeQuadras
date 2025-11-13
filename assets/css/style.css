@@ -431,6 +431,7 @@ header.home .figura img {
 }
 
 .sectionNossasCategorias {
+    height: auto;
     padding: 48px 0;
 
     display: flex;
@@ -566,6 +567,38 @@ header.home .figura img {
     align-items: center;
 
     background: linear-gradient(to bottom, #000000, #45dddd);
+}
+
+.row-porqueEscolher {
+    width: 100%;
+    margin: 16px 0;
+    padding: 16px 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-porqueEscolher {
+    width: 350px;
+    height: auto;
+    padding: 16px;
+
+    background-color: #ffffff42;
+    color: #ffffff;
+}
+
+.iconeCard-porqueEscolher {
+    width: 10%;
+    padding: 5%;
+
+    background-color: #F6AE2D;
+    border-radius: 100px;
+}
+
+.iconeCard-porqueEscolher img {
+    width: 100%;
 }
 
 /*   CSS Celular e Tablet   */

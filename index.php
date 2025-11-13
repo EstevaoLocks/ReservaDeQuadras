@@ -247,7 +247,11 @@
                 <p class="subtitle-porqueEscolher">Veja o quão mais fácil seu lazer e cuidados físicos se tornam:</p>
                 <div class="row-porqueEscolher">
                     <div class="card-porqueEscolher">
-
+                        <div class="iconeCard-porqueEscolher">
+                            <img src="assets/img/icons/iconeRelogio.png" alt="Ícone de relógio">
+                        </div>
+                        <p class="titleCard-porqueEscolher">Sistema de Agendamento</p>
+                        <p class="descricaoCard-porqueEscolher">Sua quadra durante o tempo que puder</p>
                     </div>
                 </div>
             </div>
@@ -256,7 +260,11 @@
                 <p class="subtitle-porqueEscolher">Dê vida à quadra do seu quintal ou mais visibilidade à sua quadra profissional</p>
                 <div class="row-porqueEscolher">
                     <div class="card-porqueEscolher">
-                        
+                        <div class="iconeCard-porqueEscolher">
+                            <img src="assets/img/icons/iconeRelogio.png" alt="Ícone de relógio">
+                        </div>
+                        <p class="titleCard-porqueEscolher">Sistema de Agendamento</p>
+                        <p class="descricaoCard-porqueEscolher">Sua quadra durante o tempo que puder</p>
                     </div>
                 </div>
             </div>
