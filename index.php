@@ -246,29 +246,86 @@
                 <h2 class="title-porqueEscolher">Por que reservar através do SportMatch?</h2>
                 <p class="subtitle-porqueEscolher">Veja o quão mais fácil seu lazer e cuidados físicos se tornam:</p>
                 <div class="row-porqueEscolher">
+                    <!-- Card 1 -->
                     <div class="card-porqueEscolher">
-                        <div class="iconeCard-porqueEscolher">
+                        <div class="iconeCard-porqueReservar">
                             <img src="assets/img/icons/iconeRelogio.png" alt="Ícone de relógio">
                         </div>
                         <p class="titleCard-porqueEscolher">Sistema de Agendamento</p>
-                        <p class="descricaoCard-porqueEscolher">Sua quadra durante o tempo que puder</p>
+                        <p class="descricaoCard-porqueEscolher">Saiba exatamente quando as quadras estiverem livres</p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="card-porqueEscolher">
+                        <div class="iconeCard-porqueReservar">
+                            <img src="assets/img/icons/iconeCartao.png" alt="Ícone de relógio">
+                        </div>
+                        <p class="titleCard-porqueEscolher">Pesquisa de Preço</p>
+                        <p class="descricaoCard-porqueEscolher">Aqui você consegue ver todos os preços e ver qual se encaixa em seu bolso</p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="card-porqueEscolher">
+                        <div class="iconeCard-porqueReservar">
+                            <img src="assets/img/icons/iconeLocal.png " alt="Ícone de relógio">
+                        </div>
+                        <p class="titleCard-porqueEscolher">Locais</p>
+                        <p class="descricaoCard-porqueEscolher">Saiba todas as quadras perto de você</p>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="card-porqueEscolher">
+                        <div class="iconeCard-porqueReservar">
+                            <img src="assets/img/icons/IconeGlobo.png" alt="Ícone de relógio">
+                        </div>
+                        <p class="titleCard-porqueEscolher">Reserva fácil</p>
+                        <p class="descricaoCard-porqueEscolher">Reserve um horário em qualquer quadra em alguns cliques</p>
                     </div>
                 </div>
             </div>
+
             <div class="porqueCadastrar">
                 <h2 class="title-porqueEscolher">Por que cadastrar sua quadra no SportMatch?</h2>
                 <p class="subtitle-porqueEscolher">Dê vida à quadra do seu quintal ou mais visibilidade à sua quadra profissional</p>
                 <div class="row-porqueEscolher">
+                    <!-- Card 1 -->
                     <div class="card-porqueEscolher">
-                        <div class="iconeCard-porqueEscolher">
+                        <div class="iconeCard-porqueCadastrar">
                             <img src="assets/img/icons/iconeRelogio.png" alt="Ícone de relógio">
                         </div>
                         <p class="titleCard-porqueEscolher">Sistema de Agendamento</p>
                         <p class="descricaoCard-porqueEscolher">Sua quadra durante o tempo que puder</p>
                     </div>
+
+                    <!-- Card 2 -->
+                    <div class="card-porqueEscolher">
+                        <div class="iconeCard-porqueCadastrar">
+                            <img src="assets/img/icons/iconeCartao.png" alt="Ícone de relógio">
+                        </div>
+                        <p class="titleCard-porqueEscolher">Monetize sua quadra</p>
+                        <p class="descricaoCard-porqueEscolher">Cadastre sua quadra sem muito uso e transforme ela em uma renda extra!</p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="card-porqueEscolher">
+                        <div class="iconeCard-porqueCadastrar">
+                            <img src="assets/img/icons/iconeOlho.png" alt="Ícone de relógio">
+                        </div>
+                        <p class="titleCard-porqueEscolher">Mais visibilidade</p>
+                        <p class="descricaoCard-porqueEscolher">Sua quadra ficará visível a todos os usuários da plataforma!</p>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="card-porqueEscolher">
+                        <div class="iconeCard-porqueCadastrar">
+                            <img src="assets/img/icons/IconeGlobo.png" alt="Ícone de relógio">
+                        </div>
+                        <p class="titleCard-porqueEscolher">Reserva fácil</p>
+                        <p class="descricaoCard-porqueEscolher">Sem complicações com agendamento e preço, tudo é informado e resolvido aqui!</p>
+                    </div>
                 </div>
             </div>
-        </section>
+        </section><!-- Fim Porque escolher-nos  -->
     </main>
 </body>
 </html>
