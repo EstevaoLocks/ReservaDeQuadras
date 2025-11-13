@@ -539,7 +539,7 @@ header.home .figura img {
 }
 
 .porqueContratar {
-    padding: 32px 0;
+    padding-top: 64px;
 
     display: flex;
     flex-direction: column;
@@ -560,7 +560,7 @@ header.home .figura img {
 }
 
 .porqueCadastrar {
-    padding: 32px 0;
+    padding-top: 64px;
 
     display: flex;
     flex-direction: column;
