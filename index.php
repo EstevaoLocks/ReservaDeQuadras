@@ -246,12 +246,12 @@
             <p class="subTitleContratante">Explore as melhores opções ao seu lado!</p>
 
             <div class="row-pertoVoce">
-
                 <!-- Card 1 -->
                 <div class="card-pertoVoce">
                     <div class="gradienteCard-pertoVoce"></div>
                     <img class="cardImg-pertoVoce" src="assets/img/Lugares/bairros-de-ribeirao-pires 1.png" alt="Ícone de relógio">
                     <div class="containerLocal-pertoVoce">
+                        <!-- Img que será convertida em SVG -->
                         <img id="iconeLocalCard1" class="icone-pertoVoce" src="assets/img/icons/iconeLocal.svg" alt="">
                         <p class="titleCard-pertoVoce">Ribeirão Pires</p>
                     </div>
@@ -262,6 +262,7 @@
                     <div class="gradienteCard-pertoVoce"></div>
                     <img class="cardImg-pertoVoce" src="assets/img/Lugares/Maua-SP-740x415-1 1.png" alt="Ícone de relógio">
                     <div class="containerLocal-pertoVoce">
+                        <!-- Img que será convertida em SVG -->
                         <img id="iconeLocalCard2" class="icone-pertoVoce" src="assets/img/icons/iconeLocal.svg" alt="">
                         <p class="titleCard-pertoVoce">Mauá</p>
                     </div>
@@ -272,6 +273,7 @@
                     <div class="gradienteCard-pertoVoce"></div>
                     <img class="cardImg-pertoVoce" src="assets/img/Lugares/prefeitura-de-santo-andre-860x570 1.png" alt="Ícone de relógio">
                     <div class="containerLocal-pertoVoce">
+                        <!-- Img que será convertida em SVG -->
                         <img id="iconeLocalCard3" class="icone-pertoVoce" src="assets/img/icons/iconeLocal.svg" alt="">
                         <p class="titleCard-pertoVoce">Santo André</p>
                     </div>
@@ -282,11 +284,12 @@
                     <div class="gradienteCard-pertoVoce"></div>
                     <img class="cardImg-pertoVoce" src="assets/img/Lugares/imagem Suzano.png" alt="Ícone de relógio">
                     <div class="containerLocal-pertoVoce">
+                        <!-- Img que será convertida em SVG -->
                         <img id="iconeLocalCard4" class="icone-pertoVoce" src="assets/img/icons/iconeLocal.svg" alt="">
                         <p class="titleCard-pertoVoce">Suzano</p>
                     </div>
                 </div>
-            </div>
+            </div><!-- Fim Row -->
         </section>
 
         <!-- Section 4 - Porque escolher-nos -->
