@@ -538,6 +538,17 @@ header.home .figura img {
     transition: background-color 0.3s ease;
 }
 
+.sectionPertoVoce {
+    padding-top: 48px;
+    padding-bottom: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #F9FAFB;
+}
+
 .row-pertoVoce {
     width: 100%;
     margin: 16px 0;
@@ -549,7 +560,8 @@ header.home .figura img {
 }
 
 .card-pertoVoce {
-    width: 350px;
+    width: 23%;
+    min-width: 350px;
     height: 200px;
     margin-top: 32px;
     position: relative;
