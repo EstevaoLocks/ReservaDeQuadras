@@ -42,8 +42,7 @@
  
         <div class="links">
             <div>
-                <a class="btn-primary1 union" href="#">Cadastre-se</a>
-                <a class="btn-secondary1 union" href="#">Login</a>
+                <a class="btn-secondary1-menu" href="#">Login<img id="iconePersonBtnMenu" class="iconePerson-BtnMenu" src="assets/img/icons/iconePerson.svg" alt=""></a>
             </div>
         </div>
     </nav><!-- Fim Menu -->
@@ -62,8 +61,7 @@
     
                     <!-- Botões -->
                     <div class="btns-header">
-                        <a class="btn-primary2" href="#">Cadastre-se</a>
-                        <a class="btn-primary1" href="#">Login</a>
+                        <a class="btn-primary2" href="#">Cadastre-se já!</a>
                     </div>
                 </div>
     
@@ -418,12 +416,32 @@
                 </div>
 
                 <div class="colLinksFooter">
-                    <h6 class="tituloLinksFooter">Título links</h6>
+                    <h6 class="tituloLinksFooter">Contate-nos</h6>
                     <ul>
-                        <li class="linkFooter"><a href="#">link</a></li>
-                        <li class="linkFooter"><a href="#">link</a></li>
-                        <li class="linkFooter"><a href="#">link</a></li>
-                        <li class="linkFooter"><a href="#">link</a></li>
+                        <li class="linkFooter">
+                            <a class="linkContato-Footer" href="#">
+                                <img id="iconeTelefone-Footer" class="iconeContato-Footer" src="assets/img/icons/iconeTelefone.svg" alt="Icone de telefone">
+                                0800-SUPORTE-SPORT-MATCH
+                            </a>
+                        </li>
+                        <li class="linkFooter">
+                            <a class="linkContato-Footer" href="#">
+                                <img id="iconeEmail-Footer" class="iconeContato-Footer" src="assets/img/icons/iconeEmail.svg" alt="Ícone de email">
+                                suporte@sportmatch.com
+                            </a>
+                        </li>
+                        <li class="linkFooter">
+                            <a class="linkContato-Footer" href="#">
+                                <img id="iconeWhatsapp-Footer" class="iconeWhatsapp-Footer" src="assets/img/icons/iconeWhatsapp.svg" alt="Ícone do WhatsApp">
+                                (42)12345-6789
+                            </a>
+                        </li>
+                        <li class="linkFooter">
+                            <a class="linkContato-Footer" href="#">
+                                <img id="iconeLocal-Footer" class="iconeLocal-Footer" src="assets/img/icons/iconeLocal.svg" alt="Ícone de localização">
+                                Em todos os estados do Brasil!
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>

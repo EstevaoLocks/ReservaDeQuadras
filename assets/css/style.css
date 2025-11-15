@@ -114,9 +114,37 @@ h2 {
     color: #45dddd;
 }
 
-.btn-primary1.union {
-    border-radius: 5px 0 0 5px;
-    margin-right: 0;
+.btn-secondary1-menu {
+    background-color: #45DDDD;
+    color: #0F2F51;
+    font-size: 16px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+
+    margin: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+}
+
+.iconePerson-BtnMenu path {
+    fill: #0F2F51;
+    stroke-width: 0.5px;
+}
+
+.iconePerson-BtnMenu {
+    width: auto;
+    height: 20px;
+    margin-left: 8px;
+}
+
+.btn-secondary1-menu:hover {
+    background-color: #36acac;
 }
 
 .btn-secondary1.union {
@@ -796,6 +824,48 @@ footer {
 .linkFooter:hover {
     color: #747983;
     transition: color 0.3s ease;
+}
+
+.linkContato-Footer {
+    display: flex;
+    align-items: center;
+}
+
+.iconeWhatsapp-Footer {
+    height: 20px;
+    width: auto;
+    margin-right: 8px;
+
+    /* fill: #75DDDD; */
+}
+
+.iconeLocal-Footer path {
+    stroke: #75DDDD;
+    stroke-width: 2.5px;
+}
+
+.iconeLocal-Footer {
+    height: 18px;
+    width: auto;
+    margin-right: 8px;
+
+    /* fill: #75DDDD; */
+}
+
+.iconeWhatsapp-Footer path {
+
+    fill: #75DDDD;
+}
+
+.iconeContato-Footer {
+    height: 16px;
+    width: auto;
+    margin-right: 8px;
+}
+
+.iconeContato-Footer path {
+    stroke: #75DDDD;
+    stroke-width: 1.5px;
 }
 
 .linhaFooter {

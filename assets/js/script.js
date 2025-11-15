@@ -22,7 +22,17 @@ function imgToSVGElement(elementId) {
 // end of SVG manipulation
 
 // Chama a função para os ícones
+// Icone Person Button Menu
+imgToSVGElement("iconePersonBtnMenu");
+
+// Icones Local Cards Section "Perto de Você"
 imgToSVGElement("iconeLocalCard1");
 imgToSVGElement("iconeLocalCard2");
 imgToSVGElement("iconeLocalCard3");
 imgToSVGElement("iconeLocalCard4");
+
+// Ícones links Contato Footer
+imgToSVGElement("iconeTelefone-Footer");
+imgToSVGElement("iconeEmail-Footer");
+imgToSVGElement("iconeWhatsapp-Footer");
+imgToSVGElement("iconeLocal-Footer");
