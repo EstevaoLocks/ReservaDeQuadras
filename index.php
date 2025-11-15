@@ -380,6 +380,69 @@
         </section><!-- Fim Porque escolher-nos  -->
     </main>
 
+    <!-- Footer -->
+     <footer>
+        <div class="containerFooter">
+            <div class="rowFooter">
+                <div class="colLinksFooter">
+                    <div class="containerLogoFooter">
+                        <div class="logo-imgFooter">
+                            <img src="assets/img/Logo Branco.png" alt="">
+                        </div>
+                        <div class="nome-siteFooter">
+                            <p>SportMatch</p>
+                            <p class="azul">Brasil</p>
+                        </div>
+                    </div>
+                    <p>Encontre uma quadra seja onde for</p>
+                </div>
+
+                <div class="colLinksFooter">
+                    <h6 class="tituloLinksFooter">Título links</h6>
+                    <ul>
+                        <li class="linkFooter"><a href="#">link</a></li>
+                        <li class="linkFooter"><a href="#">link</a></li>
+                        <li class="linkFooter"><a href="#">link</a></li>
+                        <li class="linkFooter"><a href="#">link</a></li>
+                    </ul>
+                </div>
+
+                <div class="colLinksFooter">
+                    <h6 class="tituloLinksFooter">Título links</h6>
+                    <ul>
+                        <li class="linkFooter"><a href="#">link</a></li>
+                        <li class="linkFooter"><a href="#">link</a></li>
+                        <li class="linkFooter"><a href="#">link</a></li>
+                        <li class="linkFooter"><a href="#">link</a></li>
+                    </ul>
+                </div>
+
+                <div class="colLinksFooter">
+                    <h6 class="tituloLinksFooter">Título links</h6>
+                    <ul>
+                        <li class="linkFooter"><a href="#">link</a></li>
+                        <li class="linkFooter"><a href="#">link</a></li>
+                        <li class="linkFooter"><a href="#">link</a></li>
+                        <li class="linkFooter"><a href="#">link</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="linhaFooter">
+            <div class="rowFooter">
+                <div class="colBottomFooter">
+                    <p>&copy; <a href="#" class="linkFooter">2025 SportMatch</a>. Todos os direitos reservados.</p>
+                </div>
+                <div class="colBottomFooter colBottomRightFooter">
+                    <ul class="linksBottomFooter">
+                        <li class="linkFooter"><a href="">Privacy Plicy</a></li>
+                        <li class="linkFooter"><a href="">Termos de Serviço</a></li>
+                        <li class="linkFooter"><a href="">Safety</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+     </footer>
+
     <script src="assets/js/script.js"></script>
 </body>
 </html>
