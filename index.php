@@ -396,22 +396,20 @@
                 </div>
 
                 <div class="colLinksFooter">
-                    <h6 class="tituloLinksFooter">Título links</h6>
+                    <h6 class="tituloLinksFooter">Serviços</h6>
                     <ul>
-                        <li class="linkFooter"><a href="#">link</a></li>
-                        <li class="linkFooter"><a href="#">link</a></li>
-                        <li class="linkFooter"><a href="#">link</a></li>
-                        <li class="linkFooter"><a href="#">link</a></li>
+                        <li class="linkFooter"><a href="#">Crie uma conta</a></li>
+                        <li class="linkFooter"><a href="#">Procure quadras</a></li>
                     </ul>
                 </div>
 
                 <div class="colLinksFooter">
-                    <h6 class="tituloLinksFooter">Título links</h6>
+                    <h6 class="tituloLinksFooter">Páginas</h6>
                     <ul>
-                        <li class="linkFooter"><a href="#">link</a></li>
-                        <li class="linkFooter"><a href="#">link</a></li>
-                        <li class="linkFooter"><a href="#">link</a></li>
-                        <li class="linkFooter"><a href="#">link</a></li>
+                        <li class="linkFooter"><a href="#">Home</a></li>
+                        <li class="linkFooter"><a href="#">Login</a></li>
+                        <li class="linkFooter"><a href="#">Pesquisar</a></li>
+                        <li class="linkFooter"><a href="#">Sua conta</a></li>
                     </ul>
                 </div>
 
