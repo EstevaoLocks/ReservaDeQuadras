@@ -240,7 +240,56 @@
             </div>
         </section><!-- Fim Section 2 - Nossas Categorias -->
 
-        <!-- Section 3 - Porque escolher-nos -->
+        <!-- Section 3 - Perto de Você -->
+        <section class="sectionPertoVoce">
+            <h2 class="titleContratante">Quadras perto de você</h2>
+            <p class="subTitleContratante">Explore as melhores opções ao seu lado!</p>
+
+            <div class="row-pertoVoce">
+
+                <!-- Card 1 -->
+                <div class="card-pertoVoce">
+                    <div class="gradienteCard-pertoVoce"></div>
+                    <img class="cardImg-pertoVoce" src="assets/img/Lugares/bairros-de-ribeirao-pires 1.png" alt="Ícone de relógio">
+                    <div class="containerLocal-pertoVoce">
+                        <img id="iconeLocalCard1" class="icone-pertoVoce" src="assets/img/icons/iconeLocal.svg" alt="">
+                        <p class="titleCard-pertoVoce">Ribeirão Pires</p>
+                    </div>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="card-pertoVoce">
+                    <div class="gradienteCard-pertoVoce"></div>
+                    <img class="cardImg-pertoVoce" src="assets/img/Lugares/Maua-SP-740x415-1 1.png" alt="Ícone de relógio">
+                    <div class="containerLocal-pertoVoce">
+                        <img id="iconeLocalCard2" class="icone-pertoVoce" src="assets/img/icons/iconeLocal.svg" alt="">
+                        <p class="titleCard-pertoVoce">Mauá</p>
+                    </div>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="card-pertoVoce">
+                    <div class="gradienteCard-pertoVoce"></div>
+                    <img class="cardImg-pertoVoce" src="assets/img/Lugares/prefeitura-de-santo-andre-860x570 1.png" alt="Ícone de relógio">
+                    <div class="containerLocal-pertoVoce">
+                        <img id="iconeLocalCard3" class="icone-pertoVoce" src="assets/img/icons/iconeLocal.svg" alt="">
+                        <p class="titleCard-pertoVoce">Santo André</p>
+                    </div>
+                </div>
+                
+                <!-- Card 4 -->
+                <div class="card-pertoVoce">
+                    <div class="gradienteCard-pertoVoce"></div>
+                    <img class="cardImg-pertoVoce" src="assets/img/Lugares/imagem Suzano.png" alt="Ícone de relógio">
+                    <div class="containerLocal-pertoVoce">
+                        <img id="iconeLocalCard4" class="icone-pertoVoce" src="assets/img/icons/iconeLocal.svg" alt="">
+                        <p class="titleCard-pertoVoce">Suzano</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4 - Porque escolher-nos -->
         <section class="sectionPorqueEscolher">
             <div class="porqueContratar">
                 <h2 class="title-porqueEscolher">Por que reservar através do SportMatch?</h2>
@@ -327,5 +376,7 @@
             </div>
         </section><!-- Fim Porque escolher-nos  -->
     </main>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,28 @@
+// Possbilita manipular SVGs diretamente no DOM (no CSS)
+function imgToSVGElement(elementId) {
+
+    let img = document.getElementById(elementId);
+    let src = img.getAttribute("src");
+    
+    fetch(src)
+        // Busca o arquivo SVG
+        .then(res => res.text())
+        .then(svg => {
+            let parser = new DOMParser();
+            let svgDoc = parser.parseFromString(svg, "image/svg+xml");
+    
+            let svgElement = svgDoc.querySelector("svg");
+            svgElement.id = elementId; // Mantém o mesmo ID
+            svgElement.classList = img.classList; // Mantém as mesmas classes
+
+            // Substitui o <img> pelo <svg>
+            img.replaceWith(svgElement);
+        });
+} // end function imgToSVGElement
+// end of SVG manipulation
+
+// Chama a função para os ícones
+imgToSVGElement("iconeLocalCard1");
+imgToSVGElement("iconeLocalCard2");
+imgToSVGElement("iconeLocalCard3");
+imgToSVGElement("iconeLocalCard4");
